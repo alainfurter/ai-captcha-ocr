@@ -83,7 +83,7 @@ print(predicted_labels)
 # Save the model for later use
 print("--------------------------")
 print("Saving model...")
-with open('modelo.pkl', 'wb') as f:
+with open('model.pkl', 'wb') as f:
     pickle.dump(model, f)
 
 print("--------------------------")
